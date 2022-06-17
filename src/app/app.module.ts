@@ -11,6 +11,7 @@ import { StoryComponent } from './story/story.component';
 import { MediaComponent } from './media/media.component';
 import { GoldenBookComponent } from './golden-book/golden-book.component';
 import { PressComponent } from './press/press.component';
+import { CarousselComponent } from './caroussel/caroussel.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PressComponent } from './press/press.component';
     StoryComponent,
     MediaComponent,
     GoldenBookComponent,
-    PressComponent
+    PressComponent,
+    CarousselComponent
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,22 @@
+div.events-body {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+
+
+  div.col {
+    width: 25%;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  div.date-event {
+    color: green;
+    font-weight: bold;
+  }
+}
+
+div.events-body:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}

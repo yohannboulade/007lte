@@ -1,0 +1,12 @@
+div.events-head {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+
+  div.col {
+    width: 25%;
+    padding: 10px;
+    font-size: 2rem;
+    text-align: center;
+  }
+}

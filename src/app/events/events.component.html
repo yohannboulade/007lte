@@ -1,1 +1,9 @@
-<p>events works!</p>
+<div class="events">
+  <div class="events-head">
+    <div class="col">date</div>
+    <div class="col">location</div>
+    <div class="col">city</div>
+    <div class="col">type</div>
+  </div>
+  <app-event *ngFor="let event of events" [event]="event"></app-event>
+</div>

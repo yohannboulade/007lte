@@ -1,5 +1,3 @@
-/* eslint-disable class-methods-use-this */
-/* eslint-disable import/prefer-default-export */
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -9,9 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class HeaderComponent implements OnInit {
-  // eslint-disable-next-line no-useless-constructor
   constructor() {
-    // eslint-disable-next-line no-empty-function
 
   }
 
